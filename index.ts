@@ -1,8 +1,12 @@
-import { registerRootComponent } from 'expo';
+import { activateKeepAwakeAsync } from 'expo-keep-awake';
 
-import App from './App';
+import * as ScreenOrientation from 'expo-screen-orientation';
+async function changeScreenOrientation() {
+    await ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.LANDSCAPE);
+}
+(async() => {
+    await changeScreenOrientation();
+    await activateKeepAwakeAsync('global')
+})()
 
-// registerRootComponent calls AppRegistry.registerComponent('main', () => App);
-// It also ensures that whether you load the app in Expo Go or in a native build,
-// the environment is set up appropriately
-registerRootComponent(App);
+import 'expo-router/entry';
