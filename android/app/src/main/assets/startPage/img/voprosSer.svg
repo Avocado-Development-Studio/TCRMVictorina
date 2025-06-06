@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="7.8173mm" height="8.7373mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 7.68 8.59"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <font id="FontID0" horiz-adv-x="786" font-variant="normal" style="fill-rule:nonzero" font-style="normal" font-weight="800">
+	<font-face 
+		font-family="Montserrat ExtraBold">
+		<font-face-src>
+			<font-face-name name="Montserrat ExtraBold"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="?" horiz-adv-x="596" d="M212.003 254.996c0,33.3394 7.33165,60.8391 21.9949,82.507 14.6713,21.6599 36.0041,45.4977 63.9983,71.4975 19.3383,17.998 33.6665,33.1639 43.0006,45.4977 9.33409,12.3338 14.0011,25.5052 14.0011,39.4984 0,19.3383 -8.16134,34.8393 -24.5,46.5029 -16.3307,11.6636 -37.4959,17.5034 -63.4957,17.5034 -26.67,0 -50.8349,-6.33442 -72.5027,-19.0032 -21.6679,-12.6688 -39.1633,-30.3318 -52.5023,-52.9969l-148.994 79.9939c27.3321,46.6704 65.9928,83.0016 115.998,109.001 49.9972,25.9998 110.334,39.0037 181.002,39.0037 79.3318,0 143.163,-16.4982 191.5,-49.5026 48.3298,-32.9964 72.4948,-79.1642 72.4948,-138.496 0,-27.3401 -4.66704,-51.505 -14.0011,-72.5027 -9.33409,-20.9977 -20.4951,-38.6687 -33.499,-53.0049 -12.9959,-14.3282 -29.8292,-30.4993 -50.4998,-48.4974 -22.6651,-19.3303 -39.3308,-35.8285 -49.9972,-49.5026 -10.6664,-13.6661 -16.0036,-29.4941 -16.0036,-47.5001l-177.994 0zm88.993 -263.995c-32.6613,0 -59.6664,10.1638 -80.9991,30.4993 -21.3328,20.3355 -31.9992,45.1626 -31.9992,74.4972 0,30.0047 10.4989,54.6722 31.5045,74.0026 20.9977,19.3303 48.1623,28.9995 81.4938,28.9995 33.3394,0 60.6716,-9.66916 82.0044,-28.9995 21.3328,-19.3303 31.9992,-43.9979 31.9992,-74.0026 0,-29.3346 -10.6664,-54.1616 -31.9992,-74.4972 -21.3328,-20.3355 -48.6649,-30.4993 -82.0044,-30.4993z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Montserrat ExtraBold";font-variant:normal;font-style:normal;font-weight:800;src:url("#FontID0") format(svg)}
+    .fil0 {fill:#D2CDE7}
+    .fnt0 {font-weight:800;font-size:12.32px;font-family:'Montserrat ExtraBold'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g transform="matrix(0.788818 0.614626 -0.614626 0.788818 308.668 242.767)">
+   <text x="-390.86" y="4.22"  class="fil0 fnt0">?</text>
+  </g>
+ </g>
+</svg>

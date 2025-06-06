@@ -1,0 +1,246 @@
+body {
+    background: radial-gradient(rgba(1, 127, 177, 1), rgba(1, 76, 107, 1));
+    margin: 0;
+    user-select: none;
+}
+
+body, h2, h1, p, button {
+    margin: 0;
+    padding: 0;
+    font-family: 'AGCooperCyr';
+    src: local('AGCooperCyr'),
+        url(/ofont.ru_AGCooperCyr);
+    color: #ffffff;
+}
+
+.start_page {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.layer-image {
+    position: absolute;
+    height: auto;
+}
+
+#layer1 {
+    z-index: 1;
+}
+
+#layer2 {
+    z-index: 2;
+}
+
+#layer3 {
+    z-index: 3;
+}
+
+#layer1 .image1 {
+    width: 50%;
+    top: -7.5%;
+    left: -12%;
+}
+
+#layer1 .image2 {
+    width: 50%;
+    bottom: -10%;
+    right: -12.5%;
+    /* transform: scale(-1, 1) */
+}
+
+#layer2 .image1 {
+    width: 11.5%;
+    top: 2%;
+    left: 2%;
+}
+
+#layer2 .image2 {
+    width: 5%;
+    top: 6%;
+    left: 35%;
+}
+
+#layer2 .image3 {
+    width: 15%;
+    top: 4%;
+    left: 42%;
+}
+
+#layer2 .image4 {
+    width: 5%;
+    top: 21.5%;
+    right: 36.5%;
+}
+
+#layer2 .image5 {
+    width: 4%;
+    right: 32%;
+    top: 5.5%;
+}
+
+#layer2 .image6 {
+    width: 12%;
+    right: 6%;
+    top: 4%;
+}
+
+#layer2 .image7 {
+    transform: rotate(50deg);
+    width: 3%;
+    left: 3%;
+    bottom: 29%;
+}
+
+#layer2 .image8 {
+    width: 10%;
+    left: 4%;
+    bottom: 3%;
+}
+
+#layer2 .image9 {
+    width: 3%;
+    bottom: 6%;
+    left: 28.5%;
+}
+
+#layer2 .image12 {
+    width: 5%;
+    bottom: 7%;
+    right: 18%;
+}
+
+#layer2 .image13 {
+    width: 7%;
+    bottom: 3%;
+    right: 7%;
+}
+
+#layer2 .image14 {
+    width: 9%;
+    top: 13%;
+    right: 25%;
+}
+
+#layer2 .image15 {
+    width: 6%;
+    top: 5%;
+    right: 22%;
+}
+
+#layer2 .image16 {
+    width: 4.5%;
+    top: 28%;
+    left: 1.5%;
+}
+
+#layer2 .image17 {
+    width: 15%;
+    bottom: 5%;
+    left: 40%;
+}
+
+#layer2 .image18 {
+    width: 9%;
+    bottom: 6%;
+    right: 28.5%;
+}
+
+#layer3 .image10 {
+    width: 38%;
+}
+
+#layer3 .image11 {
+    width: 7%;
+}
+
+
+.layer-image.image10,
+.layer-image.image11 {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.layer-image.image11 {
+    left: 45%;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column; /* Отображаем элементы в столбце */
+    align-items: center;
+    justify-content: center; /* Выравниваем по центру по вертикали */
+    height: 100vh; /* Расширяем контейнер на весь экран по высоте */
+    margin-left: 48%;
+    margin-top: 2.5%;
+}
+
+.text-block p{
+    margin-bottom: 60px; /* Отступ между текстом и кнопкой */
+    font-size: 10vh;
+    text-align: center;
+    line-height: 100%;
+}
+
+.start {
+    background: linear-gradient(to bottom, #C5291D, #8F2017, #CF341E);
+    color: #fff;
+    padding: 5% 20%;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 8vh;
+    font-weight: bold;
+}
+
+/* При наведении добавим небольшую тень, чтобы кнопка выглядела трёхмерной */
+.start:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Медиа-запросы для более точного контроля на различных разрешениях */
+@media screen and (max-width: 768px) {
+    .start_page h1 {
+        font-size: 6vw;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .start_page h1 {
+        font-size: 3.5vw;
+    }
+}
+
+
+@keyframes spin {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+.layer-image.image10 {
+    animation: spin 20s linear infinite; /* 20 секунд на один оборот */
+}
